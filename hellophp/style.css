@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Meddon';
+    src: url('fonts/Meddon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0px;
+    background: #454545;
+    background-repeat: repeat;
+    background-image: url(bgxy.jpg);
+}
+
+h1 {
+    font-family: 'Meddon', Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    color: #FF3366;
+    letter-spacing: 0px;
+    text-shadow: -1px 1px 1px #ccccdd;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Meddon', Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #FF3366;
+    letter-spacing: 0px;
+    text-shadow: -1px 1px 1px #e0e0e0;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #082A3C;
+    text-align: center;
+}
+
+#message {
+    width: 100px;
+    height: 100px;
+    background-color: #C30;
+}
+
+/*
+Internet Explorer only supports EOT
+Mozilla browsers support OTF and TTF
+Safari and Opera support OTF, TTF and SVG
+Chrome supports TTF and SVG.
+*/
